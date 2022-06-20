@@ -327,7 +327,9 @@ body {
     color: var(--bittersweet); 
 }
   
-.product-card .card-title { margin-bottom: 12px; }
+.product-card .card-title { 
+    margin-bottom: 12px; 
+}
   
 .product-card .card-title > a {
     color: inherit;
