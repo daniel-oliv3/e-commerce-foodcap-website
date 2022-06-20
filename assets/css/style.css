@@ -195,7 +195,9 @@ body {
   z-index: 4;
 }
 
-.header.active { box-shadow: 0 2px 10px hsla(0, 0%, 0%, 0.1); }
+.header.active { 
+    box-shadow: 0 2px 10px hsla(0, 0%, 0%, 0.1); 
+}
 
 .header .container {
   display: flex;
