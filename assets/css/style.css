@@ -575,11 +575,47 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-block: 45px 25px;
-  }
+}
 
 
-
-
+/* ======= Products Section/Seção de Produtos ======= */
+.product .section-title {
+    text-align: center;
+    margin-bottom: 25px;
+}
+  
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+  
+.filter-btn {
+    color: var(--onyx);
+    padding: 10px 16px;
+    font-family: var(--ff-roboto);
+    font-size: var(--fs-7);
+    font-weight: var(--fw-500);
+    border: 1px solid var(--gainsboro);
+    border-radius: 30px;
+}
+  
+.filter-btn.active {
+    background: var(--bittersweet);
+    color: var(--white);
+    border-color: var(--bittersweet);
+}
+  
+.product-list {
+    display: grid;
+    gap: 50px 25px;
+}
+  
+  
+  
 
 
 
