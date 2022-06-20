@@ -236,12 +236,12 @@ body {
 }
 
 .navbar .logo img { 
-    margin-inline: auto; 
+  margin-inline: auto; 
 }
 
 .navbar-list,
 .nav-action-list { 
-    margin: 30px; 
+  margin: 30px; 
 }
 
 .navbar-list {
@@ -256,15 +256,15 @@ body {
 }
 
 .navbar-link:is(:hover, :focus) { 
-    color: var(--bittersweet); 
+  color: var(--bittersweet); 
 }
 
 .navbar-item:not(:last-child) { 
-    border-bottom: 1px solid var(--gainsboro); 
+  border-bottom: 1px solid var(--gainsboro); 
 }
 
 .nav-action-list > li:first-child { 
-    display: none; 
+  display: none; 
 }
 
 .nav-action-btn {
@@ -278,7 +278,7 @@ body {
 }
 
 .nav-action-btn:is(:hover, :focus) { 
-    color: var(--bittersweet); 
+  color: var(--bittersweet); 
 }
 
 .nav-action-btn ion-icon {
@@ -319,8 +319,33 @@ body {
 }
 
 
-
-
+/* ======= Hero Section/Seção de heróis ======= */
+.hero {
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    min-height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.hero-title { 
+  margin-bottom: 10px; 
+}
+  
+.hero-title > strong { 
+ display: block; 
+}
+  
+.hero-text {
+  color: var(--onyx);
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-8);
+  line-height: 1.8;
+  max-width: 46ch;
+  margin-bottom: 25px;
+}
 
 
 
