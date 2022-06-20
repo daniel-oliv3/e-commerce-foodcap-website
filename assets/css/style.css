@@ -105,13 +105,21 @@ body {
     padding-block-start: 90px;
 }
 
-::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar { 
+    width: 10px; 
+}
 
-::-webkit-scrollbar-track { background: hsl(0, 0%, 95%); }
+::-webkit-scrollbar-track { 
+    background: hsl(0, 0%, 95%); 
+}
 
-::-webkit-scrollbar-thumb { background: hsl(0, 0%, 80%); }
+::-webkit-scrollbar-thumb { 
+    background: hsl(0, 0%, 80%); 
+}
 
-::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
+::-webkit-scrollbar-thumb:hover { 
+    background: hsl(0, 0%, 70%); 
+}
 
 
 /* REUSED STYLE */
@@ -173,9 +181,13 @@ body {
   padding: 8px;
 }
 
-.nav-open-btn:is(:hover, :focus) { background: var(--salmon); }
+.nav-open-btn:is(:hover, :focus) { 
+    background: var(--salmon); 
+}
 
-.nav-open-btn ion-icon { --ionicon-stroke-width: 40px; }
+.nav-open-btn ion-icon { 
+    --ionicon-stroke-width: 40px; 
+}
 
 .navbar {
   background: var(--white);
@@ -210,19 +222,27 @@ body {
   transition: var(--transition-1);
 }
 
-.nav-close-btn ion-icon { --ionicon-stroke-width: 55px; }
+.nav-close-btn ion-icon { 
+    --ionicon-stroke-width: 55px; 
+}
 
-.nav-close-btn:is(:hover, :focus) { color: var(--bittersweet); }
+.nav-close-btn:is(:hover, :focus) { 
+    color: var(--bittersweet); 
+}
 
 .navbar .logo {
   background: var(--maximum-blue-green_10);
   padding-block: 50px 40px;
 }
 
-.navbar .logo img { margin-inline: auto; }
+.navbar .logo img { 
+    margin-inline: auto; 
+}
 
 .navbar-list,
-.nav-action-list { margin: 30px; }
+.nav-action-list { 
+    margin: 30px; 
+}
 
 .navbar-list {
   padding: 20px;
@@ -235,11 +255,17 @@ body {
   transition: var(--transition-1);
 }
 
-.navbar-link:is(:hover, :focus) { color: var(--bittersweet); }
+.navbar-link:is(:hover, :focus) { 
+    color: var(--bittersweet); 
+}
 
-.navbar-item:not(:last-child) { border-bottom: 1px solid var(--gainsboro); }
+.navbar-item:not(:last-child) { 
+    border-bottom: 1px solid var(--gainsboro); 
+}
 
-.nav-action-list > li:first-child { display: none; }
+.nav-action-list > li:first-child { 
+    display: none; 
+}
 
 .nav-action-btn {
   color: var(--rich-black-fogra-29);
@@ -251,7 +277,9 @@ body {
   transition: var(--transition-1);
 }
 
-.nav-action-btn:is(:hover, :focus) { color: var(--bittersweet); }
+.nav-action-btn:is(:hover, :focus) { 
+    color: var(--bittersweet); 
+}
 
 .nav-action-btn ion-icon {
   font-size: 22px;
