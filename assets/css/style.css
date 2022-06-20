@@ -144,13 +144,43 @@ body {
   line-height: 1.5;
 }
 
-.h2 { font-size: var(--fs-2); }
+.h2 { 
+    font-size: var(--fs-2); 
+}
 
-.h3 { font-size: var(--fs-4); }
+.h3 { 
+    font-size: var(--fs-4); 
+}
 
 .h4 {
   font-size: var(--fs-5);
   text-transform: uppercase;
+}
+
+.btn {
+    background: var(--background, var(--bittersweet));
+    color: var(--color, var(--white));
+    font-size: var(--fs-5);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 14px 25px;
+    border: 1px solid var(--border-color, var(--bittersweet));
+  }
+  
+  .btn-primary:is(:hover, :focus) {
+    --background: var(--salmon);
+    --border-color: var(--salmon);
+  }
+  
+  .btn-secondary {
+    --background: transparent;
+    --border-color: var(--black);
+    --color: var(--black);
+  }
+  
+  .btn-secondary:is(:hover, :focus) { 
+    --background: hsla(0, 0%, 0%, 0.1); 
 }
 
 
@@ -349,7 +379,7 @@ body {
 
 
 
-
+/* ======= Collection Section/Seção de coleção ======= */
 
 
 
